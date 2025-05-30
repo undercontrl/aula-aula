@@ -55,3 +55,7 @@ body{
     height: 30px;   
     margin: auto;
 }
+header nav a:hover{
+    background-color: #9EBEDA;
+    border-radius: 10px;
+}
