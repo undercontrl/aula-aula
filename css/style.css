@@ -15,9 +15,10 @@ header{
 nav{
     display: flex;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     position: absolute;
-    left: 250px;
+    left: 350px;
+    top: -20px;
 }
 ul{
     display: flex;
@@ -34,15 +35,21 @@ header a{
     padding: 0 5px;
 }
 li img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+    background-color: #81403f9f;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 .logo-header{
     width: 150px;
     font-size: 1.5rem;
     font-weight: bold;
     position: absolute;
-    right: 40px;
+    right: 112px;
 }
