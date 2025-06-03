@@ -81,6 +81,9 @@ se a largura for até 768 faça:*/
         background-color: #55659c86;
         margin: 10px 0;
     }
+    .modal{
+        transform: translateY(-110%);
+    }
     .menu-toggle:checked ~ .navbar-desktop{
         display: flex;
         flex-direction: column;
@@ -93,9 +96,6 @@ se a largura for até 768 faça:*/
         transition: all 0.3s ease;
         transform: translateY(0);
     }
-    .modal{
-        transform: translateY(-110%);
-    }
     .menu-toggle:checked ~ .menu-icon .linha-menu-top{
         transform: translateY(6px) rotate(48deg);
     }
@@ -104,5 +104,8 @@ se a largura for até 768 faça:*/
     }
     .menu-toggle:checked ~ .menu-icon .linha-menu-center{
         display: none;
+    }
+    .menu-toggle:checked ~ .modal{
+        transform: translateY(60%);
     }
 }
