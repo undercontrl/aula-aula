@@ -78,3 +78,16 @@ header nav a:hover{
     padding: 20px;
     border-radius: 10px;
 }
+.zapperson-flutuante{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #90a4e493;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

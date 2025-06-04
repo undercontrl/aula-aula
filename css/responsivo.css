@@ -10,7 +10,8 @@
         justify-content: space-evenly;
         padding: 10px;
         height: 60px;
-        background-color: #94a4b6;
+        background-color: #B6C7DB;
+        height: auto;
     }
 }
 @media (min-width: 460px) {
