@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    .navbar-desktop {
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-evenly;
+        padding: 10px;
+        height: 60px;
+        background-color: #94a4b6;
+    }
+}
+@media (min-width: 460px) {
+
+}
