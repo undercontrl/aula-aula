@@ -70,7 +70,7 @@ header nav a:hover{
 }
 .modal{
     position: fixed;
-    left: 50%;
+    left: 41%;
     top: 120px;
     width: 60%;
     background-color: #90a4e493;
@@ -90,4 +90,7 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.navbar-mobile{
+    display: none;
 }
