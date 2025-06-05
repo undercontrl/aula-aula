@@ -1,0 +1,14 @@
+:rooT{
+    --cor-texto-primaria: #333;
+    --cor-texto-secundaria: #555;
+    --cor-fundo-primaria: #d3d3d3;
+    --cor-fundo-secundaria: #f0f0f0;
+    --cor-destaque-primaria: #B6C7DB;
+    --cor-destaque-secundaria: #526778;
+    --cor-destaque-terciaria: #55659c;
+    --cor-destaque-quaternaria: #748ca4;
+    --cor-borda: #ccc;
+    --cor-botao-primario: #55659c;
+    --fonte-principal: 'Arial', sans-serif;
+    --tamanho-fonte-base: 1rem;
+}
