@@ -1,0 +1,29 @@
+.testemunho{
+    padding: 3rem 1rem;
+}
+.testemunho_container{
+    border-radius: 10px;
+    background-color: var(--cor-fundo-primaria);
+    border:  1px solid #748ca4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    box-shadow: 0  4px 8px rgb(24, 27, 44);
+}
+.testemunho-cards{
+    flex-basis: 400px;
+    padding: 1.5rem;
+    border-left: 5px solid rgb(55, 45, 63);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.testemunho-cards blockquote{
+    font-style:italic;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.testemunho-cards cite{
+    font-weight: bold;
+    color: rgb(38, 33, 46);
+}
